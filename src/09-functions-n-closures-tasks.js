@@ -23,10 +23,10 @@
  *   getComposition(Math.sin, Math.asin)(x) => Math.sin(Math.asin(x))
  *
  */
-function getComposition(f, g) {
-  return function () {
-    return f(g());
-  };
+function getComposition(/* f, g */) {
+  // return function () {
+  //   return f(g());
+  // };
 }
 
 
